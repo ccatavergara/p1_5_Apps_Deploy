@@ -1,0 +1,43 @@
+.Container{
+                      display: flex;
+                      flex-direction: column;
+    height: 85px;
+
+                  }
+
+
+.BoxNav{
+                 width: 100%;
+                 height: 85px;
+                 background-color: rgba(162, 187, 250, 0.9);
+                 flex-direction: column;
+                 display: flex;
+                 position: fixed;
+                    top: 0;
+                    left: 0;
+    z-index: 1100;
+             }
+
+
+.EllipseStack{
+                         width: 55px;
+                         height: 55px;
+                         margin-top: 10px;
+                         align-content: start;
+                         position: absolute;
+                     }
+.AppName{
+                            width: 200px;
+                            height: 50px;
+                            margin-top: 17px;
+                            margin-right: 17px;
+                            position: absolute;
+    right: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-style: italic; */
+    font-weight: bolder;
+    font-size: 27px;
+    line-height: 50px;
+    color:rgba(58, 99, 202, 0.9);
+    text-align: center;
+                        }

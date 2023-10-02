@@ -1,0 +1,32 @@
+.Group {
+    top: 96px;
+    left: 0;
+    width: 374px;
+    height: calc((100%) - 55px);
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.GroupStack {
+    height: calc((100%) - 55px);
+    margin-top: 0;
+    margin-bottom: 55px;
+    flex: 0 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.NewTripFab{
+    position: fixed !important;
+    top: 90px;
+    right: 20px;
+    z-index: 1200;
+    transition: transform 0.5s ease-in-out;
+
+}
+

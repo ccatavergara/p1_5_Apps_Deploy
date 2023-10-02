@@ -1,0 +1,25 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Group {
+    background-color: #0471a6;
+    width: 100%;
+    height: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 33px;
+    margin-left: 24px;
+    display: flex;
+    position: fixed;
+}
+
+.BottomNavigation {
+    color: #0471a6;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}

@@ -1,0 +1,25 @@
+.map {
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    right: 50px;
+    width: 100%;
+    height: 80%;
+  }
+
+.search-map{
+    position: relative;
+    top: 60px;
+    left: 10px;
+}
+
+.button-search {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.find-trip {
+    position: relative;
+    top: 90px;
+    left: 10px;
+}

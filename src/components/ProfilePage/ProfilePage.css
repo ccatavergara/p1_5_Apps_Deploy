@@ -1,0 +1,28 @@
+.centered-container {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+  }
+
+  /* CSS stylesheet */
+.image-settings {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+
+.title-profile {
+  margin-bottom: 1px;
+}
+
+.main-title-profile {
+  font-size: 20px;
+  margin-top: 1px;
+}
+
+.sub-title-profile {
+  margin-top: 1px;
+}
